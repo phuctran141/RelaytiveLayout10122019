@@ -2,63 +2,95 @@
 <RelativeLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <TextView-->
+<!--        android:textSize="30sp"-->
+<!--        android:text="View 1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+<!--    <TextView-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:textSize="30sp"-->
+<!--        android:text="View 2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+<!--    <TextView-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:textSize="30sp"-->
+<!--        android:text="View 3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+<!--    <TextView-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:textSize="30sp"-->
+<!--        android:text="View 4"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+<!--    <TextView-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:textSize="30sp"-->
+<!--        android:text="View 5"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+<!--    <TextView-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:textSize="30sp"-->
+<!--        android:text="View 6"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+<!--    <TextView-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:textSize="30sp"-->
+<!--        android:text="View 7"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+<!--    <TextView-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:textSize="30sp"-->
+<!--        android:text="View 8"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
     <TextView
+        android:id="@+id/tvView1"
+        android:layout_centerInParent="true"
         android:textSize="30sp"
         android:text="View 1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:layout_alignParentEnd="true"
+        android:id="@+id/tvView2"
+        android:layout_toStartOf="@+id/tvView1"
+        android:layout_above="@+id/tvView1"
         android:textSize="30sp"
         android:text="View 2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:layout_alignParentBottom="true"
+        android:id="@+id/tvView3"
+        android:layout_toEndOf="@+id/tvView1"
+        android:layout_above="@+id/tvView1"
         android:textSize="30sp"
         android:text="View 3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
+        android:id="@+id/tvView4"
+        android:layout_toEndOf="@+id/tvView1"
+        android:layout_below="@+id/tvView1"
         android:textSize="30sp"
         android:text="View 4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:layout_centerHorizontal="true"
+        android:id="@+id/tvView5"
+        android:layout_toStartOf="@+id/tvView1"
+        android:layout_below="@+id/tvView1"
         android:textSize="30sp"
         android:text="View 5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-    <TextView
-        android:layout_centerVertical="true"
-        android:layout_alignParentEnd="true"
-        android:textSize="30sp"
-        android:text="View 6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        android:textSize="30sp"
-        android:text="View 7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:layout_centerVertical="true"
-        android:layout_alignParentStart="true"
-        android:textSize="30sp"
-        android:text="View 8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:layout_centerInParent="true"
-        android:textSize="30sp"
-        android:text="View 9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
 
 </RelativeLayout>
